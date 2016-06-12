@@ -269,6 +269,10 @@ h1.upper {
     bottom: -150px;
     background-color: #e7e7e7;
 }
+.tab-content {
+    color: none !important;
+    text-align: left !important;
+}
 .timeline >li {
     overflow: hidden;
     margin-bottom: 50px;
@@ -280,14 +284,14 @@ h1.upper {
     float: left;
     position: relative;
 }
-.contact-info .timeline-item h4 {
+.contact-info .timeline-item h4, .tab-content .timeline-item h4 {
     margin-top: 0;
     font-size: 12px;
     margin-bottom: 10px;
     color: #ef2d56;
     text-transform: uppercase;
 }
-.contact-info .timeline-item span {
+.contact-info .timeline-item span, .tab-content .timeline-item span {
     color: #000;
     font-size: 16px;
     text-transform: uppercase;
