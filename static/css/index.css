@@ -467,3 +467,6 @@ h1.upper {
     margin-bottom: -1px;
     outline: none;
 }
+#submit_success, #submit_error {
+    display: none;
+}
